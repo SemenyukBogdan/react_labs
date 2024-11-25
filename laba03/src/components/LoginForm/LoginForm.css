@@ -1,0 +1,46 @@
+h1{
+    margin-top: 70px;
+    font-weight: 910;
+    font-size: 20px;
+    font-family: 'Blue Fonte Sans', sans-serif;
+       /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+}
+.login-via-social ul{
+    display: flex;       
+    justify-content: space-around; 
+    list-style: none;     
+    padding: 0;           
+
+}
+.login-via-social ul li a{
+    border-radius: 3px;
+    border: 1px solid rgb(185, 185, 185);
+    display: flex;
+    height: 60px;
+    width: 60px;
+    list-style: none;
+    padding: 15px;
+}
+
+.text-with-line{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.text-with-line > span {
+    font-size: 14px;
+    background-color: #ffffff;
+    z-index: 100;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.background-line{
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    border-top: 0.5px rgb(230, 230, 230) solid;
+    width: 100%;
+    background-color: black;
+}
+
+

@@ -1,0 +1,28 @@
+:root {
+    --bui_font_stack_sans: "BlinkMacSystemFont", -apple-system, "Segoe UI", "Roboto", "Helvetica", "Arial", sans-serif;
+  }
+body {
+  font-family: var(--bui_font_stack_sans);
+}
+  
+
+
+
+
+.agree-rules, .copyright{
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+
+
+p,label{
+    font-size: 14px;
+ 
+    font-family: Inter, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, Sans-Serif;
+}
+h5{
+    font-weight: 800;
+}
