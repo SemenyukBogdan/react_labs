@@ -1,0 +1,38 @@
+.modal{
+    /*opacity: 0;*/
+    visibility: hidden;
+    transform: scale(0);
+
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.modal.active{
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+
+}
+
+.modal-content{
+    border: 1px solid black;
+    border-radius: 3px;
+    width: 300px;
+    height: 200px;
+}
+.modal.active > * {
+    background-color: white;
+}
+
+.modal-content{
+    padding-left: 20px;
+    padding-right: 20px;
+}
